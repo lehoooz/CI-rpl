@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ "main" ]     # pipeline berjalan saat push ke main
+    branches: ["master"] # pipeline berjalan saat push ke main
 
 jobs:
   lint-and-test:
